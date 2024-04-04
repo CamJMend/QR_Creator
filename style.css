@@ -19,7 +19,7 @@ body{
 }
 .container p{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 8px;
 }
 .container input{
@@ -28,8 +28,9 @@ body{
     border: 1px solid #494eea;
     outline: 0;
     padding: 10px;
-    margin: 10px 0 20px;
+    margin: 10px 0 10px;
     border-radius: 5px;
+    font-size: 15px;
 }
 .container button{
     width: 100%;
@@ -41,8 +42,9 @@ body{
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     cursor: pointer;
-    margin: 20px 0;
-    font-weight: 500;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
 }
 #imgBox{
     width: 200px;
@@ -56,12 +58,12 @@ body{
     padding: 10px;
 }
 #imgBox.show-img{
-    max-height: 300px;
+    max-height: 600px;
     margin: 10px auto;
     border: 1px solid #d1d1d1;
 }
 .error{
-    animation: shake 0.1s linear 10;
+    animation: shake 0.03s linear 10;
 }
 @keyframes shake{
     0%{
